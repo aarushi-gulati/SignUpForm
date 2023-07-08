@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    background: url("photo-1634647608224-11b088789061.avif");
+    height: 1000px;
+    width: 300px;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.5;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 300px;
+}
+
+.heading{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.text{
+    margin: 50px;
+    margin-top: 100px;
+    width: px;
+    max-width: 500px;
+}
+
+.bakwaas{
+    margin-bottom: 25px;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.form{
+    margin-left: 50px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+}
